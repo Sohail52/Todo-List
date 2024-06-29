@@ -1,0 +1,75 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #181824;
+  color: white;
+}
+
+.App_header {
+  width: 100%;
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+}
+
+.App_header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.App_todo {
+  width: 28rem;
+  margin-top: 2rem; /* Added margin to separate header and todo section */
+}
+
+.App_input_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #25273c;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.App_input {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+.App_input_button {
+  width: 3rem;
+  height: 100%;
+  background-color: #4ec032;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.App_todo_list {
+  background-color: #25273c;
+  width: 100%; /* Adjusted width to fit container */
+  margin-top: 2rem;
+  overflow: auto;
+}
+
+.empty {
+  color: white;
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+}
