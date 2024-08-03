@@ -23,7 +23,7 @@ Make sure you have Node.js and npm installed on your system. You can download th
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/yourusername/todo-list-app.git
+    git clone https://github.com/Sohail52/todo-list-app.git
     ```
 
 2. Navigate to the project directory
